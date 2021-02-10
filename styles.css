@@ -1,0 +1,485 @@
+/* Start of Reset Style */
+
+/* Structural Styles */
+
+article, figcaption, figure, header, main, nav {
+    display: block;
+}
+
+/* Typographic */
+
+address, div, aside, blockquote, body, cite, div, em, figcaption, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul {
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+body {
+    line-height: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-weight: inherit
+}
+
+/* End of Reset Styles */
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Pixel Art */
+.canvas {
+    /* Perfectly square */
+    display: none;
+    width: 400px;
+    height: 400px;
+  }
+  
+.pixel {
+    /* We'll need 64 total pixels in our HTML */
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+
+/*Slideshow*/
+.slideshow{
+    position: relative;
+    margin: auto;
+    padding-top: 8em;
+}
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -20px;
+    color: black;
+    font-weight: bold;
+    font-size: 10em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    color: pink;
+  }
+.arrows{
+  padding-right: 487px;
+}
+
+/*Animation*/
+.pixel:nth-child(1){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 100ms;
+}
+ .pixel:nth-child(2){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 200ms;
+}
+ .pixel:nth-child(3){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 300ms;
+}
+ .pixel:nth-child(4){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 400ms;
+}
+ .pixel:nth-child(5){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 500ms;
+}
+ .pixel:nth-child(6){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 600ms;
+}
+ .pixel:nth-child(7){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 700ms;
+}
+ .pixel:nth-child(8){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 800ms;
+}
+ .pixel:nth-child(9){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 900ms;
+}
+ .pixel:nth-child(10){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1000ms;
+}
+ .pixel:nth-child(11){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1100ms;
+}
+ .pixel:nth-child(12){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1200ms;
+}
+ .pixel:nth-child(13){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1300ms;
+}
+ .pixel:nth-child(14){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1400ms;
+}
+ .pixel:nth-child(15){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1500ms;
+}
+ .pixel:nth-child(16){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1600ms;
+} .pixel:nth-child(17){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1700ms;
+}
+ .pixel:nth-child(18){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1800ms;
+}
+ .pixel:nth-child(19){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1900ms;
+}
+ .pixel:nth-child(20){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2000ms;
+}
+ .pixel:nth-child(21){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2100ms;
+}
+ .pixel:nth-child(22){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2200ms;
+}
+ .pixel:nth-child(23){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2300ms;
+}
+ .pixel:nth-child(24){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2400ms;
+} .pixel:nth-child(25){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2500ms;
+}
+ .pixel:nth-child(26){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2600ms;
+}
+ .pixel:nth-child(27){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2700ms;
+}
+ .pixel:nth-child(28){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2800ms;
+}
+ .pixel:nth-child(29){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2900ms;
+}
+ .pixel:nth-child(30){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3000ms;
+}
+ .pixel:nth-child(31){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3100ms;
+}
+ .pixel:nth-child(32){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3200ms;
+} .pixel:nth-child(33){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3300ms;
+}
+ .pixel:nth-child(34){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3400ms;
+}
+ .pixel:nth-child(35){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3500ms;
+}
+ .pixel:nth-child(36){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3600ms;
+}
+ .pixel:nth-child(37){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3700ms;
+}
+ .pixel:nth-child(38){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3800ms;
+}
+ .pixel:nth-child(39){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3900ms;
+}
+ .pixel:nth-child(40){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4000ms;
+} .pixel:nth-child(41){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4100ms;
+}
+ .pixel:nth-child(42){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4200ms;
+}
+ .pixel:nth-child(43){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4300ms;
+}
+ .pixel:nth-child(44){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4400ms;
+}
+ .pixel:nth-child(45){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4500ms;
+}
+ .pixel:nth-child(46){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4600ms;
+}
+ .pixel:nth-child(47){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4700ms;
+}
+ .pixel:nth-child(48){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4800ms;
+} .pixel:nth-child(49){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 4900ms;
+}
+ .pixel:nth-child(50){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5000ms;
+}
+ .pixel:nth-child(51){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5100ms;
+}
+ .pixel:nth-child(52){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5200ms;
+}
+ .pixel:nth-child(53){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5300ms;
+}
+ .pixel:nth-child(54){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5400ms;
+}
+ .pixel:nth-child(55){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5500ms;
+}
+ .pixel:nth-child(56){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5600ms;
+} .pixel:nth-child(57){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5700ms;
+}
+ .pixel:nth-child(58){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5800ms;
+}
+ .pixel:nth-child(59){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5900ms;
+}
+ .pixel:nth-child(60){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 6000ms;
+}
+ .pixel:nth-child(61){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 6100ms;
+}
+ .pixel:nth-child(62){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 6200ms;
+}
+ .pixel:nth-child(63){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 6300ms;
+}
+ .pixel:nth-child(64){
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 6400ms;
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}

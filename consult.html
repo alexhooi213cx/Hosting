@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <script>
+        console.log(document.getElementById("companyIdInput"));
+        window.onload = function () {
+            var selectElement = document.getElementById("queueIdSelect")
+            const data = getQueueData()
+            populateQueueIdDropdown(data)
+            selectElement.addEventListener("click", function name(params) {
+                alert('Wuss Poppin')
+            })
+        };
+        function getQueueData() {
+            let data = [
+                { queue_id: "Queue10101", isactive: 0 },
+                { queue_id: "Queue10112", isactive: 1 },
+            ];
+            return data
+        }
+        function populateQueueIdDropdown(data) {
+            const selectElement = document.getElementById("queueIdSelect");
+
+            let options = "";
+            for (let i = 0; i < data.length; i++) {
+                const queueId = data[i].queue_id;
+                const option = `<option>` + queueId + `</option>`;
+                options += option
+            }
+            selectElement.innerHTML = options;
+        }
+        function getArrivalRateOfQueueId(queueId) {
+            return fetch("https://run.mocky.io/v3/8f504e33-bf83-43fb-8608-3129dbb1e5f5")
+            .then(function(response) {
+                return response.json()
+            }).then(function (json) {
+                console.log(json)
+            })
+            
+            ;
+        }
+
+    </script>
+</head>
+
+<body>
+    <input type="text" id="companyIdInput" />
+    <select name="dropdown" id="queueIdSelect"></select>
+</body>
+
+</html>

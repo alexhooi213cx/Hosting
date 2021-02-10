@@ -2,23 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>Pixel Art</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="pepe.css">
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css">
 </head>
 
 <body>
     <div class="slideshow">
-        <div id="pepe" class="canvas">
+        <div id="canvas" class="canvas">
         </div>
-        <div id="pikachu" class="canvas">
+        <div id="canvas1" class="canvas">
         </div>
-        <div id="kirby" class="canvas">
+        <div id="canvas2" class="canvas">
         </div>
     </div>
     <a class="prev arrows" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next arrows" onclick="plusSlides(1)">&#10095;</a>
-    <input type="url">
 
     <script>
         var pixelart =
@@ -54,33 +52,51 @@
                     ["#4CA649", "#AD1457", "#C2185B", "#C2185B", "#4CA649", "#AD1457", "#C2185B", "#4CA649"]
                 ]
             ]
-        var div =["pepe", "pikachu", "kirby"]
+        let no = 0
         for (let i = 0; i < pixelart.length; i++) {
             switch (i) {
                 case 0:
-                    loop(i,div[i])
+                    no = 1
+                    for (let j = 0; j < 8; j++) {
+                        for (let k = 0; k < 8; k++) {
+                            var pixels = document.createElement("div");
+                            pixels.className += `pixel`
+                            pixels.className += `cell-${no}`
+                            pixels.style.backgroundColor = pixelart[i][j][k]
+                            var element = document.getElementById("canvas");
+                            element.appendChild(pixels);
+                        }
+                    }
                     break;
                 case 1:
-                    loop(i,div[i])
+                    no = 1
+                    for (let j = 0; j < 8; j++) {
+                        for (let k = 0; k < 8; k++) {
+                            var pixels = document.createElement("div");
+                            pixels.className += `pixel`
+                            pixels.className += `cell-${no}`
+                            pixels.style.backgroundColor = pixelart[i][j][k]
+                            var element = document.getElementById("canvas1");
+                            element.appendChild(pixels);
+                        }
+                    }
                     break
                 case 2:
-                    loop(i, div[i])
+                    no = 1
+                    for (let j = 0; j < 8; j++) {
+                        for (let k = 0; k < 8; k++) {
+                            var pixels = document.createElement("div");
+                            pixels.className += `pixel`
+                            pixels.className += `cell-${no}`
+                            pixels.style.backgroundColor = pixelart[i][j][k]
+                            var element = document.getElementById("canvas2");
+                            element.appendChild(pixels);
+                        }
+                    }
                     break;
             }
 
         }
-        function loop(i, div) {
-            for (let j = 0; j < 8; j++) {
-                for (let k = 0; k < 8; k++) {
-                    var pixels = document.createElement("div");
-                    pixels.className = "pixel"
-                    pixels.style.backgroundColor = pixelart[i][j][k]
-                    var element = document.getElementById(div);
-                    element.appendChild(pixels);
-                }
-            }
-        }
-
         var slideIndex = 1;
         showSlides(slideIndex);
 

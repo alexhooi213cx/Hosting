@@ -1,0 +1,120 @@
+/* Start of Reset Style */
+
+/* Structural Styles */
+
+article, figcaption, figure, header, main, nav {
+    display: block;
+}
+
+/* Typographic */
+
+address, div, aside, blockquote, body, cite, div, em, figcaption, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul {
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+body {
+    line-height: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-weight: inherit
+}
+
+/* End of Reset Styles */
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Pixel Art */
+.canvas {
+    /* Perfectly square */
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 1px rgb(27, 3, 3);
+  }
+  
+.pixel {
+    /* We'll need 64 total pixels in our HTML */
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  .pixel0 {
+    /* We'll need 64 total pixels in our HTML */
+    background-color: aqua;
+  }
+/*Slideshow*/
+.slideshow{
+    position: relative;
+    margin: auto;
+    padding-top: 8em;
+}
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -20px;
+    color: black;
+    font-weight: bold;
+    font-size: 10em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    color: pink;
+  }
+.arrows{
+  padding-right: 487px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

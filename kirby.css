@@ -1,0 +1,388 @@
+#kirby > .pixel:nth-child(1){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 100ms;
+  }
+  #kirby > .pixel:nth-child(2){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 200ms;
+  }
+  #kirby > .pixel:nth-child(3){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 300ms;
+  }
+  #kirby > .pixel:nth-child(4){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 400ms;
+  }
+  #kirby > .pixel:nth-child(5){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 500ms;
+  }
+  #kirby > .pixel:nth-child(6){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 600ms;
+  }
+  #kirby > .pixel:nth-child(7){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 700ms;
+  }
+  #kirby > .pixel:nth-child(8){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 800ms;
+  }
+  #kirby > .pixel:nth-child(9){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 900ms;
+  }
+  #kirby > .pixel:nth-child(10){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1000ms;
+  }
+  #kirby > .pixel:nth-child(11){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1100ms;
+  }
+  #kirby > .pixel:nth-child(12){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1200ms;
+  }
+  #kirby > .pixel:nth-child(13){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1300ms;
+  }
+  #kirby > .pixel:nth-child(14){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1400ms;
+  }
+  #kirby > .pixel:nth-child(15){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1500ms;
+  }
+  #kirby > .pixel:nth-child(16){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1600ms;
+  }#kirby > .pixel:nth-child(17){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1700ms;
+  }
+  #kirby > .pixel:nth-child(18){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1800ms;
+  }
+  #kirby > .pixel:nth-child(19){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1900ms;
+  }
+  #kirby > .pixel:nth-child(20){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2000ms;
+  }
+  #kirby > .pixel:nth-child(21){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2100ms;
+  }
+  #kirby > .pixel:nth-child(22){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2200ms;
+  }
+  #kirby > .pixel:nth-child(23){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2300ms;
+  }
+  #kirby > .pixel:nth-child(24){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2400ms;
+  }#kirby > .pixel:nth-child(25){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2500ms;
+  }
+  #kirby > .pixel:nth-child(26){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2600ms;
+  }
+  #kirby > .pixel:nth-child(27){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2700ms;
+  }
+  #kirby > .pixel:nth-child(28){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2800ms;
+  }
+  #kirby > .pixel:nth-child(29){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2900ms;
+  }
+  #kirby > .pixel:nth-child(30){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3000ms;
+  }
+  #kirby > .pixel:nth-child(31){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3100ms;
+  }
+  #kirby > .pixel:nth-child(32){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3200ms;
+  }#kirby > .pixel:nth-child(33){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3300ms;
+  }
+  #kirby > .pixel:nth-child(34){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3400ms;
+  }
+  #kirby > .pixel:nth-child(35){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3500ms;
+  }
+  #kirby > .pixel:nth-child(36){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3600ms;
+  }
+  #kirby > .pixel:nth-child(37){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3700ms;
+  }
+  #kirby > .pixel:nth-child(38){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3800ms;
+  }
+  #kirby > .pixel:nth-child(39){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 3900ms;
+  }
+  #kirby > .pixel:nth-child(40){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4000ms;
+  }#kirby > .pixel:nth-child(41){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4100ms;
+  }
+  #kirby > .pixel:nth-child(42){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4200ms;
+  }
+  #kirby > .pixel:nth-child(43){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4300ms;
+  }
+  #kirby > .pixel:nth-child(44){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4400ms;
+  }
+  #kirby > .pixel:nth-child(45){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4500ms;
+  }
+  #kirby > .pixel:nth-child(46){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4600ms;
+  }
+  #kirby > .pixel:nth-child(47){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4700ms;
+  }
+  #kirby > .pixel:nth-child(48){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4800ms;
+  }#kirby > .pixel:nth-child(49){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4900ms;
+  }
+  #kirby > .pixel:nth-child(50){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5000ms;
+  }
+  #kirby > .pixel:nth-child(51){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5100ms;
+  }
+  #kirby > .pixel:nth-child(52){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5200ms;
+  }
+  #kirby > .pixel:nth-child(53){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5300ms;
+  }
+  #kirby > .pixel:nth-child(54){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5400ms;
+  }
+  #kirby > .pixel:nth-child(55){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5500ms;
+  }
+  #kirby > .pixel:nth-child(56){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5600ms;
+  }#kirby > .pixel:nth-child(57){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5700ms;
+  }
+  #kirby > .pixel:nth-child(58){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5800ms;
+  }
+  #kirby > .pixel:nth-child(59){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5900ms;
+  }
+  #kirby > .pixel:nth-child(60){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 6000ms;
+  }
+  #kirby > .pixel:nth-child(61){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 6100ms;
+  }
+  #kirby > .pixel:nth-child(62){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 6200ms;
+  }
+  #kirby > .pixel:nth-child(63){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 6300ms;
+  }
+  #kirby > .pixel:nth-child(64){
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 6400ms;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
